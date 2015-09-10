@@ -11,6 +11,3 @@ cron "clientrun" do
   action :create
 end
 
-file "/etc/chef/validation.pem" do
-  action :delete
-end
